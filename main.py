@@ -7,7 +7,6 @@ class RenomearArquivosApp(QtWidgets.QWidget):
         self.initUI()
 
     def initUI(self):
-        # Configurações básicas da janela
         self.setWindowTitle("Renomeador")
         self.setGeometry(100, 100, 500, 250)
         self.setWindowIcon(QtGui.QIcon())
